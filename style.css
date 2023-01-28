@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+  font-family: "JetBrains Mono", Courier, monospace;
+}
+
+body {
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#display {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.4em 1em;
+}
+
+.star {
+  background-color: orange;
+}
+
+.right {
+  color: white;
+  background-color: green;
+}
+
+.wrong {
+  color: white;
+  background-color: red;
+}
+
+main {
+  width: 30%;
+  max-width: 384px;
+  min-width: 320px;
+}
+
+.ctnr-btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.btn {
+  font-size: 1.7rem;
+  padding: 0.5em 1.5em;
+  display: block;
+  cursor: pointer;
+  background-color: rgb(173, 51, 51);
+  color: white;
+  border: 1px solid darkred;
+  transition: 0.1s ease-in-out;
+  font-family: inherit;
+  border-radius: 0.1em;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
+
+.btn:active {
+  background-color: rgb(90, 1, 1);
+}
+
+.btn-gnrt {
+  font-size: 1.7rem;
+  padding: 0.5em 1.5em;
+  display: block;
+  cursor: pointer;
+  color: white;
+  border: 1px solid darkred;
+  transition: 0.1s ease-in-out;
+  font-family: inherit;
+  border-radius: 0.1em;
+  background-color: rgb(0, 93, 133);
+}
+
+.n-row {
+  display: flex;
+  gap: 1rem;
+}
+
+h2 {
+  margin-top: 1.2rem;
+}
+
+#point {
+  color: red;
+  font-size: 3rem;
+}
